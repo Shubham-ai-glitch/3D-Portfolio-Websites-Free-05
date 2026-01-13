@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-[20]">
         <div className="w-full flex flex-col items-center justify-center m-auto">
             
-            {/* --- Naya Contact Form Section --- */}
+            {/* Contact Form Section */}
             <div id="contact" className="w-full max-w-[600px] flex flex-col gap-5 p-8 border border-[#2A0E61] bg-[#03001417] backdrop-blur-md rounded-xl mb-10 mt-10">
                 <h1 className="text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">
                     Contact Me
@@ -16,22 +16,22 @@ const Footer = () => {
                 
                 <div className="flex flex-col gap-2">
                     <label className="text-sm">Your Name</label>
-                    <input type="text" placeholder="Enter Your Name" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500" />
+                    <input type="text" placeholder="Enter Your Name" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500 text-white" />
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <label className="text-sm">Your Email</label>
-                    <input type="email" placeholder="shubhamsingh9415191609@gmail.com" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500" />
+                    <input type="email" placeholder="shubhamsingh9415191609@gmail.com" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500 text-white" />
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <label className="text-sm">Subject</label>
-                    <input type="text" placeholder="Enter Subject" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500" />
+                    <input type="text" placeholder="Enter Subject" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500 text-white" />
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <label className="text-sm">Message</label>
-                    <textarea rows={3} placeholder="Type Your Message" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500" />
+                    <textarea rows={3} placeholder="Type Your Message" className="p-2 rounded bg-[#110e27] border border-[#2A0E61] outline-none focus:border-purple-500 text-white" />
                 </div>
 
                 <button className="py-2 px-5 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-bold rounded-lg mt-2 hover:scale-105 transition-all">
@@ -39,7 +39,7 @@ const Footer = () => {
                 </button>
             </div>
 
-            {/* --- Purane Links Section --- */}
+            {/* Social Links Section */}
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 {FOOTER_DATA.map((column) => (
                     <div key={column.title} className="min-w-[200px] h-auto flex flex-col items-center justify-start my-5">
@@ -60,7 +60,7 @@ const Footer = () => {
                 ))}
             </div>
 
-            {/* --- Copyright Section --- */}
+            {/* Copyright with your name */}
             <div className="mb-[20px] text-[15px] text-center mt-5">
                 &copy; Shubham Singh {new Date().getFullYear()}. Not professional but great cybersecurity developer.
             </div>
