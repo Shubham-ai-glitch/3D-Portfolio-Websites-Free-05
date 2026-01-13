@@ -49,12 +49,17 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "About",
+    title: "Contact Me",
     data: [
       {
-        name: "Contact Me",
+        name: "Email: shubhamsingh9415191609@gmail.com",
         icon: null,
         link: "mailto:shubhamsingh9415191609@gmail.com",
+      },
+      {
+        name: "Send a Direct Message",
+        icon: null,
+        link: "#contact-form", // Isse click karne par niche form par jayenge
       },
     ],
   },
@@ -64,8 +69,5 @@ export const NAV_LINKS = [
   { title: "About me", link: "#about-me" },
   { title: "Skills", link: "#skills" },
   { title: "Projects", link: "#projects" },
+  { title: "Contact", link: "#contact" },
 ] as const;
-
-export const LINKS = {
-  sourceCode: "https://github.com/Shubham-ai-glitch/3D-Portfolio-Websites-Free-05",
-};
